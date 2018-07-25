@@ -5,7 +5,7 @@ npm i
 ```
 
 ```bash
-npm run unpug # changes all *.pug extensions to *.pxx` in ./src
+npm run unpug # changes all *.pug extensions to *.pxx in ./src
 ```
 
 ```bash
