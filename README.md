@@ -18,8 +18,8 @@ npm run repug # restore all *.pxx ext to *.pug` in ./src
 
 ## Config
 
-Default `*.pug` files directory is declared in `dir` variable in `unpug.sh:6`, default: `./src/`.
+Default `*.pug` files directory is declared in `dir` variable in `unpug.sh:3`, default: `./src/`.
 
 ## Pre-commit
 
-After commit `*.pxx` files are automatically changed to `.pug` thanks to pre-commit indicator (`package.json:16`)
+Right before commit `*.pxx` files are automatically changed to `.pug` thanks to pre-commit indicator (`package.json:16`)
