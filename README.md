@@ -22,4 +22,4 @@ Default `*.pug` files directory is declared in `dir` variable in `unpug.sh:3`, d
 
 ## Pre-commit
 
-Right before commit `*.pxx` files are automatically changed to `.pug` thanks to pre-commit indicator (`package.json:16`)
+Right before commit `*.pxx` files are automatically changed to `.pug` are readded to current revision thanks to pre-commit indicator (`package.json:17`)
