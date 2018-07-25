@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "unpug": "sh unpug.sh --unpug",
-    "repug": "sh unpug.sh --repug"
+    "repug": "sh unpug.sh --repug",
+    "readd": "git add ."
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
-    "repug"
+    "repug",
+    "readd"
   ]
 }
