@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# sh change.sh --unpug foo.pug # unpug all files except foo.pug
-# sh chage.sh --repug # restore all pug files
-
 dir="./src/"
 
 function modify {
