@@ -1,0 +1,19 @@
+{
+  "name": "dirext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unpug": "sh unpug.sh --unpug",
+    "repug": "sh unpug.sh --repug"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "repug"
+  ]
+}
