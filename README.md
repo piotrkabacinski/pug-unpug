@@ -2,7 +2,7 @@
 
 <i>If It's Stupid And It Works, It's Not Stupid</i> - Anonymous.
 
-Webpack Dev Server (1.x, 2.x) may take a lot of time during `*.pug` files compilations using [pug loader](https://github.com/pugjs/pug-loader), despite it's cache. To avoid this during development process "hide" files you're not working on before processing.
+Webpack Dev Server (1.x, 2.x) may take a lot of time during `*.pug` files compilations using [pug loader](https://github.com/pugjs/pug-loader), despite it's cache. To avoid this during development "hide" files you're not working on before processing.
 
 ```bash
 npm i
