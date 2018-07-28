@@ -1,5 +1,9 @@
 # Pug/Unpug
 
+<i>If it's Stupid And It Works, It's Not Stupid</i> - Anonymous.
+
+Webpack dev server may take a lot of time during `*.pug` files compilations, despite it's cache. To avoid this during development process "hide" other files before processing.
+
 ```bash
 npm i
 ```
