@@ -17,7 +17,7 @@ npm run unpug bar.pug # changes all *.pug extensions to *.pxx in ./src except ./
 ```
 
 ```bash
-npm run repug # restore all *.pxx ext to *.pug` in ./src
+npm run repug # restore all *.pxx ext to *.pug in ./src
 ```
 
 ## Config
